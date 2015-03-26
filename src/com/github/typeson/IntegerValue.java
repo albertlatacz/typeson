@@ -1,12 +1,10 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 import com.googlecode.totallylazy.numbers.Numbers;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.function.Function;
-
-import static com.theorem.typeson.Decimal.decimal;
 
 public abstract class IntegerValue<T extends TinyType<BigInteger, T>> extends TinyType<BigInteger, T> implements IntegerValueOperations<T>, DecimalValueOperations<Decimal>, NumberOperations<Decimal>, SignOperations {
     public IntegerValue(BigInteger value) {
@@ -121,47 +119,47 @@ public abstract class IntegerValue<T extends TinyType<BigInteger, T>> extends Ti
 
 
     public Decimal add(Number that) {
-        return add(decimal(that));
+        return add(Decimal.decimal(that));
     }
 
     public Decimal subtract(Number that) {
-        return subtract(decimal(that));
+        return subtract(Decimal.decimal(that));
     }
 
     public Decimal multiply(Number that) {
-        return multiply(decimal(that));
+        return multiply(Decimal.decimal(that));
     }
 
     public Decimal divide(Number that) {
-        return divide(decimal(that));
+        return divide(Decimal.decimal(that));
     }
 
     public Decimal min(Number that) {
-        return min(decimal(that));
+        return min(Decimal.decimal(that));
     }
 
     public Decimal max(Number that) {
-        return max(decimal(that));
+        return max(Decimal.decimal(that));
     }
 
     public boolean equalTo(Number that) {
-        return equalTo(decimal(that));
+        return equalTo(Decimal.decimal(that));
     }
 
     public boolean greaterThan(Number that) {
-        return greaterThan(decimal(that));
+        return greaterThan(Decimal.decimal(that));
     }
 
     public boolean greaterThanOrEqualTo(Number that) {
-        return greaterThanOrEqualTo(decimal(that));
+        return greaterThanOrEqualTo(Decimal.decimal(that));
     }
 
     public boolean lessThan(Number that) {
-        return lessThan(decimal(that));
+        return lessThan(Decimal.decimal(that));
     }
 
     public boolean lessThanOrEqualTo(Number that) {
-        return lessThanOrEqualTo(decimal(that));
+        return lessThanOrEqualTo(Decimal.decimal(that));
     }
 
     public BigDecimal toBigDecimal() {
@@ -169,7 +167,7 @@ public abstract class IntegerValue<T extends TinyType<BigInteger, T>> extends Ti
     }
 
     public Decimal toDecimal() {
-        return decimal(toBigDecimal());
+        return Decimal.decimal(toBigDecimal());
     }
 
     public int intValue() {

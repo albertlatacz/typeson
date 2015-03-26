@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 public interface DecimalValueOperations<T> {
     public T multiply(DecimalValue<?> that);

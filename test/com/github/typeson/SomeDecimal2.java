@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

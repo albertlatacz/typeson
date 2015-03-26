@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 import org.hamcrest.Matchers;
 import org.junit.Test;

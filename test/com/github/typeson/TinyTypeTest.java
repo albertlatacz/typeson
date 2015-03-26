@@ -1,11 +1,11 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 import org.hamcrest.core.Is;
 import org.junit.Test;
 
 import java.util.Optional;
 
-import static com.theorem.typeson.TinyTypeTest.SomeTinyType.someTinyType;
+import static com.github.typeson.TinyTypeTest.SomeTinyType.someTinyType;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

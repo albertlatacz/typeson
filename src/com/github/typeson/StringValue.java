@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 
 public class StringValue<T> extends TinyType<String, StringValue<T>> {

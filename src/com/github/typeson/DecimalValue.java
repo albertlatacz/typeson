@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 import com.googlecode.totallylazy.numbers.Numbers;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.function.Function;
 
-import static com.theorem.typeson.Decimal.decimal;
+import static com.github.typeson.Decimal.decimal;
 
 public abstract class DecimalValue<C extends TinyType<BigDecimal, C>> extends TinyType<BigDecimal, C> implements DecimalValueOperations<C>, IntegerValueOperations<C>, NumberOperations<C>, SignOperations {
     private final Scale scale;

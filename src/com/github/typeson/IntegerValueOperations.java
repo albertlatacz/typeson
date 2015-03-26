@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 public interface IntegerValueOperations<T> {
     public T multiply(IntegerValue<?> that);

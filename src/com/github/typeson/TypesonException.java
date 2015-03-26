@@ -1,4 +1,4 @@
-package com.theorem.typeson;
+package com.github.typeson;
 
 public class TypesonException extends RuntimeException {
     public TypesonException(String message) {
