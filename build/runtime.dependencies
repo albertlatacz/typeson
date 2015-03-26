@@ -1,0 +1,5 @@
+mvn://repo.bodar.com/com.googlecode.totallylazy:totallylazy:jar|sources:1169
+mvn://repo.bodar.com/com.googlecode.yadic:yadic:jar|sources:169
+
+mvn:cglib:cglib-nodep:jar:2.2
+mvn:org.objenesis:objenesis:jar:1.2

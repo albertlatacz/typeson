@@ -1,0 +1,9 @@
+.idea/workspace.xml
+.idea/copyright/profiles_settings.xml
+logs
+out
+lib/runtime
+lib/build
+lib/optional
+build/artifacts
+.DS_Store
